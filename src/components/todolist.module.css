@@ -1,0 +1,9 @@
+.list {
+    background-color: rgb(238, 235, 226); /* New background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Keep existing box shadow */
+    width: 500px; /* Keep existing width */
+    margin: 0 auto; /* Keep existing margin */
+    padding: 20px; /* Keep existing padding */
+    margin-top: 20px; /* Keep existing margin-top */
+    border-radius: 20px; /* Keep existing border-radius */
+}

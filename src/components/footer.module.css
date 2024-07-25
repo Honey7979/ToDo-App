@@ -1,0 +1,17 @@
+.footer {
+    background: radial-gradient(circle at center, #2C3E50 0%, #4a617a 100%);
+    font-weight: bold;
+    height: 90px;
+    width: 98vw;
+    padding: 10px;
+    font-size: 2em;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+    margin-top: 30.5%;
+    display: flex;
+    gap: 7em;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 28%;
+    color: #ECF0F1;
+}

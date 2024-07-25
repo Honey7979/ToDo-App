@@ -1,0 +1,51 @@
+.item {
+    width: 500px;
+    color: #353935;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.itemName {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    gap: 1em;
+}
+
+.line {
+    border: 1px solid #f4f4f4;
+}
+
+.deleteButton {
+    float: right;
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: #E74C3C;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.completeButton {
+    position: relative;
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: #95A5A6;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+
+
+  
+.done {
+    text-decoration: line-through;
+}

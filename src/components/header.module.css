@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle at center, #2C3E50 0%, #4a617a 100%);
+    color: #ffffff;
+    padding: 8px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .greetContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .greetName {
+    font-size: 1.2em;
+    color: #ECF0F1; 
+    margin-right: 10px;
+  }
+  
+  .heading {
+    font-size: 2em;
+    color: #ECF0F1; 
+    
+    flex: 1;
+    text-align: center;
+  }
+  
+  .date {
+    font-size: 1.2em;
+    color: #ECF0F1; 
+  }
+  
+  .sticker {
+    width: 60px;  /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
